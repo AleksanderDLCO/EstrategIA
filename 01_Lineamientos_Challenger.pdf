@@ -1,0 +1,13 @@
+
+export default function ChallengerForm() {
+  return (
+    <div>
+      <h1>Reto a Ruta IA</h1>
+      <textarea placeholder="Objetivo del challenger" />
+      <textarea placeholder="Problema detectado" />
+      <textarea placeholder="Impacto esperado" />
+      <textarea placeholder="Datos disponibles" />
+      <textarea placeholder="Riesgos iniciales" />
+    </div>
+  )
+}
